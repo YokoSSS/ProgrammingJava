@@ -1,6 +1,6 @@
+オブジェクト指向プログラミング(OOP)のテスト15件
 
-
-How coupled should your classes be and why?How coupled should your classes be and why?
+001. How coupled should your classes be and why?How coupled should your classes be and why?
 
  You should limit coupling to reduce dependencies between classes.You should limit coupling to reduce dependencies between classes.
 
@@ -13,24 +13,18 @@ How coupled should your classes be and why?How coupled should your classes be an
 
 
 
-What is the most accurate example of the Liskov substitution principle?What is the most accurate example of the Liskov substitution principle?
+002. What is the most accurate example of the Liskov substitution principle?What is the most accurate example of the Liskov substitution principle?
 
 public class Car{ } public class FlyingCars extends Car{ public void fly(){} } public class Tesla FlyingCar{} public class Honda Car{}
 
-
 public class Car{ public void fly(){} } public class Tesla extends Car{} public class Honda extends Car{}
 
-
 public class Car{ public void fly(){} } public class Tesla Car{} public class Honda Car{}
-
 
 public class Car{ } public class FlyingCar extends Car{ public void fly(){} } public class Tesla extends FlyingCar{} public class Honda extends Car{}
 
 
-
-オブジェクト指向プログラミング (OOP)の理解度テスト
-オブジェクト指向プログラミング (OOP)のテストQ3/15件
-Which statements best describe the Gang of Four design patterns called Memento and Observer? Which statements best describe the Gang of Four design patterns called Memento and Observer? 
+003. Which statements best describe the Gang of Four design patterns called Memento and Observer? Which statements best describe the Gang of Four design patterns called Memento and Observer? 
 
  Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.
 
@@ -39,11 +33,9 @@ Which statements best describe the Gang of Four design patterns called Memento a
  Memento notifies multiple classes of changes. Observer captures and restores an object's internal state. Memento notifies multiple classes of changes. Observer captures and restores an object's internal state. 
 
  Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
+
  
- 
- 
- 
- Which two blocks are used to handle and check errors?Which two blocks are used to handle and check errors?
+004. Which two blocks are used to handle and check errors?Which two blocks are used to handle and check errors?
 
  do and checkdo and check
 
@@ -53,9 +45,8 @@ Which statements best describe the Gang of Four design patterns called Memento a
 
  catching and trying
  
- 
- 
- Methods and attributes that define an object are a kind of blueprint called what?Methods and attributes that define an object are a kind of blueprint called what?
+
+005. Methods and attributes that define an object are a kind of blueprint called what?Methods and attributes that define an object are a kind of blueprint called what?
 
  a collectiona collection
 
@@ -64,20 +55,19 @@ Which statements best describe the Gang of Four design patterns called Memento a
  a procedurea procedure
 
  a variable
- 
- 
- 
 
-オブジェクト指向プログラミング (OOP)のテストQ6/15件
-What best describes what object-oriented programming does?What best describes what object-oriented programming does?
+006. What best describes what object-oriented programming does?What best describes what object-oriented programming does?
 
- It creates one class for all business logic.
- It programs exclusively to interfaces.
- It programs exclusively to classes.
- It focuses on objects that interact cleanly with one another.
+It creates one class for all business logic.
+
+It programs exclusively to interfaces.
+
+It programs exclusively to classes.
+
+It focuses on objects that interact cleanly with one another.
  
  
-Which type of constructor cannot have a return type?Which type of constructor cannot have a return type?
+007. Which type of constructor cannot have a return type?Which type of constructor cannot have a return type?
 
  default
 
@@ -88,9 +78,7 @@ Which type of constructor cannot have a return type?Which type of constructor ca
  Constructors do not have a return type.
  
  
-オブジェクト指向プログラミング (OOP)の理解度テスト
-オブジェクト指向プログラミング (OOP)のテストQ8/15件
-What is multilevel inheritance?　What is multilevel inheritance?
+008. What is multilevel inheritance?　What is multilevel inheritance?
 
  not doubling single-level inheritance
 
@@ -100,22 +88,23 @@ What is multilevel inheritance?　What is multilevel inheritance?
 
  a class not derived from another derived object
  
- 
 
-What is polymorphism?What is polymorphism?
+009. What is polymorphism?What is polymorphism?
 
- the ability for an object to be processed in more than one form
+the ability for an object to be processed in more than one form
 
- the ability for an undefined object to be processed in at least one way
- the ability for an object to be processed in only one form
+the ability for an undefined object to be processed in at least one way
 
- the ability for several objects to be processed in one way
+the ability for an object to be processed in only one form
+
+the ability for several objects to be processed in one way
  
  
  
-In general, which choice is not a benefit of OOP?
+010. In general, which choice is not a benefit of OOP?
 
  code reusability
+ 
  duplicate or redundant data
 
  efficient code
@@ -123,7 +112,7 @@ In general, which choice is not a benefit of OOP?
  modularity
  
  
-What is the best reason to use a design pattern?
+011. What is the best reason to use a design pattern?
 
  It will result in code that is more extensible and maintainable.
 
@@ -135,7 +124,7 @@ What is the best reason to use a design pattern?
  
  
  
-One advantage of using methods is making efficient reuse of the code. What is another major advantage?
+012. One advantage of using methods is making efficient reuse of the code. What is another major advantage?
 
  You will not need to nest methods within other methods.
 
@@ -146,8 +135,7 @@ One advantage of using methods is making efficient reuse of the code. What is an
  Efficient code reuse prevents compilation errors.
  
  
-オブジェクト指向プログラミング (OOP)のテストQ13/15件
-What is single-level inheritance?
+013. What is single-level inheritance?
 
  when a class does not inherit a base class
 
@@ -158,8 +146,7 @@ What is single-level inheritance?
  when a class gets inherited by two or more classes individually
  
  
-オブジェクト指向プログラミング (OOP)のテストQ14/15件
-Assume single inheritance is used with classes A and B while A is the base class. Then assume classes C, D, and E, where C is a base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which type of inheritance is reflected? 
+014. Assume single inheritance is used with classes A and B while A is the base class. Then assume classes C, D, and E, where C is a base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which type of inheritance is reflected? 
 
 
 multiple
@@ -172,7 +159,7 @@ multilevel
 
 
 
-What is the purpose of a default constructor?
+015. What is the purpose of a default constructor?
  to initialize attribute values
 
  to test all behaviors associated with a class
@@ -180,3 +167,6 @@ What is the purpose of a default constructor?
  to link attributes to shared storage
 
  to reserve memory
+ 
+ 
+ 
